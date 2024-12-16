@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Javascript Calculator Assignment</title>
+<link href="Calculator.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<main id="calculator">
+<h2 style=color:red>Javascript Calculator</h2>
+<header id="display">
+<h3 id="outdisplay"></h3>
+</header>
+<section id="controls">
+<div class="btnwrapper">
+<button onclick="btnclick(1)">1</button>
+<button onclick="btnclick(2)">2</button>
+<button onclick="btnclick(3)">3</button>
+<button onclick="sinclicked()">Sin</button>
+</div>
+<div class="btnwrapper">
+<button onclick="btnclick(4)">4</button>
+<button onclick="btnclick(5)">5</button>
+<button onclick="btnclick(6)">6</button>
+<button onclick="cosclicked()">Cos</button>
+</div>
+<div class="btnwrapper">
+<button onclick="btnclick(7)">7</button>
+<button onclick="btnclick(8)">8</button>
+<button onclick="btnclick(9)">9</button>
+<button onclick="tanclicked()">Tan</button>
+</div>
+<div class="btnwrapper">
+<button onclick="btnclick('+')">+</button>
+<button onclick="btnclick('-')">-</button>
+<button onclick="btnclick('')"></button>
+<button onclick="btnclick('/')">/</button>
+</div>
+<div class="btnwrapper">
+<button onclick="btncancel()">C</button>
+<button onclick="btnclick(0)">0</button>
+<button onclick="btnequal()">=</button>
+<button onclick="btnclick('%')">%</button>
+</div>
+</section>
+</main>
+<script src="Calculator.js"></script>
+</body>
+</html>
